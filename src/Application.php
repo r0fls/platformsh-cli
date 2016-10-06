@@ -129,6 +129,7 @@ class Application extends ParentApplication
         $commands[] = new Command\Environment\EnvironmentRelationshipsCommand();
         $commands[] = new Command\Environment\EnvironmentRoutesCommand();
         $commands[] = new Command\Environment\EnvironmentSshCommand();
+        $commands[] = new Command\Environment\EnvironmentMigrateCommand();
         $commands[] = new Command\Environment\EnvironmentSqlCommand();
         $commands[] = new Command\Environment\EnvironmentSqlDumpCommand();
         $commands[] = new Command\Environment\EnvironmentSynchronizeCommand();
