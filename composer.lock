@@ -4,9 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46e8171c926845c7248cc977b416624d",
-    "content-hash": "abcdc10a44cd7bc9093be44c9bbea45f",
+    "hash": "d71fd81da85f8f1b121ace5dc12b75af",
+    "content-hash": "a7ed18eb211d751783885f8285a8c1bb",
     "packages": [
+        {
+            "name": "albertofem/rsync-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/albertofem/rsync-lib.git",
+                "reference": "aaadb8fdbd4bff74b67741f60cccc0979acb11fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/albertofem/rsync-lib/zipball/aaadb8fdbd4bff74b67741f60cccc0979acb11fd",
+                "reference": "aaadb8fdbd4bff74b67741f60cccc0979acb11fd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "AFM": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alberto Fernandez",
+                    "email": "albertofem@gmail.com"
+                }
+            ],
+            "description": "A simple PHP rsync wrapper library",
+            "homepage": "http://albertofem.com",
+            "keywords": [
+                "rsync library"
+            ],
+            "time": "2016-08-21 12:22:24"
+        },
         {
             "name": "cocur/slugify",
             "version": "v1.4.1",
@@ -2696,7 +2744,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "albertofem/rsync-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
